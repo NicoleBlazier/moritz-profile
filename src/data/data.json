@@ -1,0 +1,44 @@
+[
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 1",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  },
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 2",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  },
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 3",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  },
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 5",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  },
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 5",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  },
+  {
+    "github": "https://www.github.com",
+    "website": "https://www.google.com",
+    "name": "Project Name 6",
+    "description": "Here is the mock description of the project",
+    "languages": ["JS", "React"]
+  }
+]

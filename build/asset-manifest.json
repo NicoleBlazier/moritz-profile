@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21373b84.css",
+    "main.js": "/static/js/main.a764430e.js",
+    "static/js/787.a838ad80.chunk.js": "/static/js/787.a838ad80.chunk.js",
+    "static/media/contact-me-img.png": "/static/media/contact-me-img.d59bbe07e0f98cf4c2ce.png",
+    "static/media/moritzPic.png": "/static/media/moritzPic.1de284bd2473230017a5.png",
+    "static/media/Blazier_Resume_Apr_2023.pdf": "/static/media/Blazier_Resume_Apr_2023.23223b9f65e97449dbb7.pdf",
+    "static/media/home-image.png": "/static/media/home-image.3ef7464f471e918e38e0.png",
+    "static/media/about-me-img.png": "/static/media/about-me-img.6ce8d1cca85a9dcde9ba.png",
+    "static/media/moritz-logo-blue.png": "/static/media/moritz-logo-blue.0b614f6a01c178b0a1bb.png",
+    "static/media/moritz-logo.png": "/static/media/moritz-logo.27e95787580d0febacd4.png",
+    "index.html": "/index.html",
+    "main.21373b84.css.map": "/static/css/main.21373b84.css.map",
+    "main.a764430e.js.map": "/static/js/main.a764430e.js.map",
+    "787.a838ad80.chunk.js.map": "/static/js/787.a838ad80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21373b84.css",
+    "static/js/main.a764430e.js"
+  ]
+}

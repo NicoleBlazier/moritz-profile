@@ -1,0 +1,287 @@
+:root {
+  --nav-color: #070b32;
+  --nav-font-color: #ffffff;
+  --nav-color-hover: #a8bad9;
+
+  --font-color: #070b32;
+  --header-color: #a8bad9;
+  --header-color-two: #0036c0;
+  --header-color-three: #1eb1e3;
+
+  --box-color: #070b32;
+  --box-font-color: #ffffff;
+  --box-color-hover: #a8bad9;
+
+  --button-color: #534f4c;
+  --button-hover: #868381;
+
+  --contact-icon-color: #a8bad9;
+  --contact-color-hover: #1eb1e3;
+
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: var(--font-color);
+}
+
+.contact-me-texts {
+  margin: 50px 50px 0px 50px;
+}
+
+.projects-texts, .skills-texts {
+  margin: 50px 0px 0px 75px;
+}
+
+.home-texts, .about-me-texts {
+  margin: 100px 0px 0px 75px;
+}
+
+.home-text, .about-me-text {
+  margin: 25px 25px 25px 0px;
+}
+
+.section-title {
+  font-size: 45px;
+  padding: 0px 0px 10px 0px;
+  color: var(--header-color);
+}
+
+.header-one {
+  color: var(--header-color);
+  font-size: 75px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: 100px;
+}
+
+.header-two {
+  color: var(--header-color-two);
+  font-size: 55px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.header-three {
+  color: var(--header-color-three);
+  font-size: 45px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.section-description {
+  margin-top: 50px;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 50px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--nav-color);
+}
+
+.nav, .link {
+  margin: 10px;
+  text-decoration: none;
+  color: var(--nav-font-color);
+}
+
+.link:hover, .link:active {
+  color: var(--nav-color-hover);
+}
+
+.logo {
+  margin: 5px 30px;
+  width: 150px;
+  height: 50px;
+}
+
+/* Home */
+.home-bg {
+  background-image: url('./assets/home-image.png');
+  background-repeat: no-repeat;
+  height: 775px;
+  margin-top: -100px;
+}
+
+.home-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 50%;
+}
+
+.home-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin: 25px 25px 25px 0px;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  text-decoration: none;
+}
+
+.home-btn:hover, .home-btn:active {
+  background-color: var(--button-hover);
+}
+
+.btn {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* About Me */
+.about-me-bg {
+  background-image: url('./assets/about-me-img.png');
+  background-repeat: no-repeat;
+  height: 775px;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.about-me-section {
+  display: flex;
+}
+
+.about-me-description {
+  width: 50%;
+}
+
+.about-me-texts {
+  padding: 100px 0px;
+}
+
+.about-me-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Skills */
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #1eb1e3;
+  margin: 50px 100px 50px 30px;
+}
+
+.icon {
+  font-size: 90px;
+  margin: 25px;
+}
+
+/* Projects */
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 150px;
+}
+
+/* Box */
+.box {
+  height: 275px;
+  width: 250px;
+  background-color: var(--box-color);
+  color: var(--box-font-color);
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.box-icons {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+}
+
+.box-lang {
+  font-size: 14px;
+}
+
+.box-fa {
+  color: var(--box-font-color);
+}
+
+.box-fa:hover, .box-fa:active {
+  color: var(--box-color-hover);
+}
+
+.box-title {
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.box-text {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.box-lang {
+  text-align: left;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+/* Contact Me */
+.contact-me-bg {
+  background-image: url('./assets/contact-me-img.png');
+  background-repeat: no-repeat;
+  height: 775px;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.contact-me-texts {
+  text-align: center;
+  padding: 250px 0px;
+  font-size: 22px;
+  color: #a8bad9;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  margin: 15px;
+  text-align: center;
+}
+
+.box-fa-two {
+  color: var(--contact-icon-color);
+  font-size: 32px;
+}
+
+.box-fa-two:hover, .box-fa-color-two:active {
+  color: var(--contact-color-hover);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  font-size: 18px;
+}
+
+.formswift-button {
+  display: none;
+}
