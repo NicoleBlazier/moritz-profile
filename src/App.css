@@ -285,3 +285,47 @@ body {
 .formswift-button {
   display: none;
 }
+
+@media only screen and (max-width: 828px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 15px;
+  }
+  .home-texts {
+    margin: 100px 50px 0 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .home-bg {
+    background-size: cover;
+    width: 828px;
+    height: 650px;
+  }
+  .about-me-texts {
+    margin: 100px 0px 0px 50px;
+    text-align: center;
+  }
+  .about-me-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about-me-bg {
+    background-image: none;
+  }
+  .icons {
+    margin: 50px 100px 50px 80px;
+  }
+  .contact-me {
+    height: 825px;
+  }
+  .footer {
+    position: unset;
+    margin-top: 250px;
+  }
+}
