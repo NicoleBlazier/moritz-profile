@@ -19,11 +19,11 @@ function ContactMe() {
               <div>Resume</div>
             </div>
             <div className='contact-icon'>
-              <a className='box-fa-two' href='mailto:nicole.blazier@gmail.com?subject=Job Opportunity' target="_blank"><MdOutlineMail /></a>
+              <a className='box-fa-two' href='mailto:nicole.blazier@gmail.com?subject=Job Opportunity' target="_blank" rel="noreferrer"><MdOutlineMail /></a>
               <div>Email</div>
             </div>
             <div className='contact-icon'>
-              <a className='box-fa-two' href='https://www.linkedin.com' target="_blank"><FaLinkedin /></a>
+              <a className='box-fa-two' href='https://www.linkedin.com' target="_blank" rel="noreferrer"><FaLinkedin /></a>
               <div>LinkedIn</div>
             </div>
           </div>

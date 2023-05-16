@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import moritzLogo from '../assets/moritz-logo.png';
 import moritzLogoBlue from '../assets/moritz-logo-blue.png';
-import Home from './home.js';
 import '../App.css';
 
 
 function Navigation() {
+  const [showLogo, setShowLogo] = useState(false);
+
+  const onMouseEnter = () => setShowLogo(true);
+  const onMouseLeave = () => setShowLogo(false);
+
   return (
     <div className='navigation'>
-      <div className='logo'>
-        <img src={moritzLogoBlue} alt='logo' />
+      <div className='logo' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+        {showLogo ? <img src={moritzLogoBlue} alt='logo' /> : <img src={moritzLogo} alt='logo' />}
       </div>
       <nav className='nav'>
         <Link to='/' className='link'>Home</Link>

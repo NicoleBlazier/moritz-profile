@@ -8,10 +8,10 @@ function Box({name, description, languages, github, website}) {
       <div className='box'>
         <div className='box-icons'>
           <div className='box-icon'>
-            <a className='box-fa' href={github} target='_blank'><FaGithub /></a>
+            <a className='box-fa' href={github} target='_blank' rel="noreferrer"><FaGithub /></a>
           </div>
           <div className='box-icon'>
-            <a className='box-fa' href={website} target='_blank'><MdOpenInNew /></a>
+            <a className='box-fa' href={website} target='_blank' rel="noreferrer"><MdOpenInNew /></a>
           </div>
         </div>
         <div className='box-title'>{name}</div>

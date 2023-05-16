@@ -18,7 +18,7 @@ function AboutMe() {
               <div className='about-me-text'>My experience spans from the UX/UI design experience, engineering requirements, front-end development, back-end development, AI/ML algos, and testing coding.</div>
             </div>
             <div className='about-me-image'>
-              <img src={MortizPic} alt='photo of mortiz' />
+              <img src={MortizPic} alt='Moritz Freidank' />
             </div>
           </div>
         </div>
