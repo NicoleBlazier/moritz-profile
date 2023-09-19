@@ -14,11 +14,11 @@ function AboutMe() {
           <div className='about-me-section'>
             <div className='about-me-description'>
               <div className='about-me-text header-two'>Hello. My name is Mortiz.</div>
-              <div className='about-me-text'>I have five years of experience as a Software Engineer.  I began my professional career working at Novartis as a AI/ML engineer coding algos and testing algos on the AE Brain project.</div>
+              <div className='about-me-text'>I have five years of experience as a Senior ML Engineer.  I began my professional career working at Novartis as a AI/ML engineer coding algos and testing algos on the AE Brain project.</div>
               <div className='about-me-text'>My experience spans from the UX/UI design experience, engineering requirements, front-end development, back-end development, AI/ML algos, and testing coding.</div>
             </div>
             <div className='about-me-image'>
-              <img src={MortizPic} alt='Moritz Freidank' />
+              <img className='moritz-image' src={MortizPic} alt='Moritz Freidank' />
             </div>
           </div>
         </div>

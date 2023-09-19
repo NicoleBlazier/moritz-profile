@@ -5,7 +5,7 @@ import Box from './box.js';
 
 
 function Projects(props) {
-  console.log('props', props.boxes)
+
   return (
     <div className='projects'>
       <Navigation />

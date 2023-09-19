@@ -20,6 +20,7 @@ function Navigation() {
         <Link to='/' className='link'>Home</Link>
         <Link to='/about-me' className='link'>About Me</Link>
         <Link to='/skills' className='link'>Skills</Link>
+        <Link to='/experience' className='link'>Experience</Link>
         <Link to='/projects' className='link'>Projects</Link>
         <Link to='/contact-me' className='link'>Contact Me</Link>
       </nav>

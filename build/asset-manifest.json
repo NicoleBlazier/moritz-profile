@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3725d40d.css",
+    "main.css": "/static/css/main.cfbed1ab.css",
     "main.js": "/static/js/main.c57d8bc8.js",
     "static/js/787.a838ad80.chunk.js": "/static/js/787.a838ad80.chunk.js",
     "static/media/contact-me-img.png": "/static/media/contact-me-img.d59bbe07e0f98cf4c2ce.png",
@@ -11,12 +11,12 @@
     "static/media/moritz-logo-blue.png": "/static/media/moritz-logo-blue.0b614f6a01c178b0a1bb.png",
     "static/media/moritz-logo.png": "/static/media/moritz-logo.27e95787580d0febacd4.png",
     "index.html": "/index.html",
-    "main.3725d40d.css.map": "/static/css/main.3725d40d.css.map",
+    "main.cfbed1ab.css.map": "/static/css/main.cfbed1ab.css.map",
     "main.c57d8bc8.js.map": "/static/js/main.c57d8bc8.js.map",
     "787.a838ad80.chunk.js.map": "/static/js/787.a838ad80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3725d40d.css",
+    "static/css/main.cfbed1ab.css",
     "static/js/main.c57d8bc8.js"
   ]
 }

@@ -1,10 +1,16 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { MdOpenInNew } from 'react-icons/md';
+import logo from '../assets/project-img/Project_Title.png';
 
 
-function Box({name, description, languages, github, website}) {
+function Box({img, name, description, languages, github, website}) {
+  console.log('Box', img)
   return (
+    <div className='project'>
+      <div className='project-img'>
+        <img src={logo} className='img' alt='project'/>
+      </div>
       <div className='box'>
         <div className='box-icons'>
           <div className='box-icon'>
@@ -18,6 +24,7 @@ function Box({name, description, languages, github, website}) {
         <div className='box-text'>{description}</div>
         <div className='box-lang'>{languages.join(' ')}</div>
       </div>
+    </div>
   )
 }
 
