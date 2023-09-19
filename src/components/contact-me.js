@@ -18,7 +18,7 @@ function ContactMe() {
               <div>Github</div>
             </div>
             <div className='contact-icon'>
-              <a className='box-fa-two' href='mailto:nicole.blazier@gmail.com' target="_blank" rel="noreferrer"><MdOutlineMail /></a>
+              <a className='box-fa-two' href='mailto:freidankm@gmail.com' target="_blank" rel="noreferrer"><MdOutlineMail /></a>
               <div>Email</div>
             </div>
             <div className='contact-icon'>

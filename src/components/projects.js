@@ -10,7 +10,7 @@ function Projects(props) {
     <div className='projects'>
       <Navigation />
       <div className='projects-texts'>
-        <div className='section-title'>Projects</div>
+        <div className='section-title-projects'>Projects</div>
         <div className='boxes'>
         {props.boxes.map((box, i) => (
           <Box key={i} {...box} />

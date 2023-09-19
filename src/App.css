@@ -25,7 +25,6 @@
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 26px;
@@ -39,8 +38,12 @@ body {
   margin: 50px 50px 0px 50px;
 }
 
-.projects-texts, .skills-texts, .experience-text {
+.skills-texts {
   margin: 50px 0px 0px 50px;
+}
+
+.experience-text, .projects-texts {
+  margin: 50px 0px 0px 0px;
 }
 
 .home-texts, .about-me-texts {
@@ -55,6 +58,13 @@ body {
   font-size: 45px;
   padding: 0px 0px 10px 0px;
   color: var(--header-color);
+}
+
+.section-title-projects {
+  color: var(--header-color);
+  margin-left: 50px;
+  color: var(--header-color);
+  font-size: 40px;
 }
 
 .header-one {
@@ -250,18 +260,18 @@ body {
 
 .box-title {
   text-align: left;
-  padding: 0px 10px;
+  padding: 0px 15px;
   font-weight: bold;
 }
 
 .box-text {
   text-align: left;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 .box-lang {
   text-align: left;
-  padding: 10px;
+  padding: 5px 15px 10px 15px;
   justify-content: flex-end;
 }
 
@@ -373,7 +383,7 @@ body {
 .experience-border {
   border: 2px solid #ebebeb;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin: 50px 0px;
   box-shadow: var(--box-shadow);
 }
 
@@ -399,7 +409,8 @@ body {
 .circle {
   position: relative;
   margin-left: -12px;
-  height: 175px;
+  height: auto;
+  padding-bottom: 10px;
 }
 
 .circle-text {
@@ -417,11 +428,21 @@ body {
 }
 
 .circle-text-right {
-  margin-top: -70px;
+  margin-top: -85px;
   margin-left: 90px;
 }
 
-.circle-text-box {
+.circle-box-title {
+  background-color: var(--header-color);
+  color: var(--font-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 10px;
+  width: 325px;
+  height: auto;
+}
+
+.circle-box-description {
   background-color: var(--experience-box-color);
   color: var(--experience-box-font);
   box-shadow: var(--box-shadow);
@@ -429,6 +450,8 @@ body {
   padding: 10px;
   width: 325px;
   height: auto;
+  margin-left: -60px;
+  margin-top: -10px;
 }
 
 span {
